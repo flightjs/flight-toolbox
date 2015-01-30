@@ -11,3 +11,4 @@ Currently we have 3 official mixins, all hosted under the FlightJS org on GitHub
 - [with-child-components](https://github.com/flightjs/flight-with-child-components) for nesting components, making sure that a component and its children are torn down together.
 - [with-state](https://github.com/flightjs/flight-with-state) for storing and reacting to change in a component's internal state.
 - [with-batch](https://github.com/flightjs/flight-with-batch) for efficiently batching function calls into animation frames, particularly useful for coalescing DOM updates.
+- [with-resources](https://github.com/flightjs/flight-with-resources) for sharing named resources between components.
