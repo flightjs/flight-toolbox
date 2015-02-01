@@ -1,0 +1,14 @@
+#!/bin/bash
+
+name="flight-$1"
+
+mkdir -p $name &&
+cd $name &&
+# add the .bowerrc
+echo "{\"directory\":\"bower_components\"}" > .bowerrc &&
+yo flight-package $1 &&
+# turn off jasmine-flight
+sed "s:\'bower_components/jasmine-flight:// &:" <karma.conf.js >karma.conf.temp.js &&
+mv karma.conf.temp.js karma.conf.js &&
+npm init &&
+cd ..

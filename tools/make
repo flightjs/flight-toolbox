@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for dir in ./*
+do
+    if [[ -d $dir ]]; then
+        cd "$dir" &&
+        npm install &&
+        bower install &&
+        bower link &&
+        cd ..
+    fi
+done
