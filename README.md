@@ -6,7 +6,7 @@ A jumping off point for Flight mixins, where we'll manage official mixin develop
 
 ### What's the current state of the toolbox?
 
-Currently we have 3 official mixins, all hosted under the FlightJS org on GitHub. Please [submit an issue](https://github.com/flightjs/flight-toolbox/issues/new) if you think you have one to be added.
+Currently we have four official mixins, all hosted under the FlightJS org on GitHub. Please [submit an issue](https://github.com/flightjs/flight-toolbox/issues/new) if you think you have one to be added.
 
 - [with-child-components](https://github.com/flightjs/flight-with-child-components) for nesting components, making sure that a component and its children are torn down together.
 - [with-state](https://github.com/flightjs/flight-with-state) for storing and reacting to change in a component's internal state.
