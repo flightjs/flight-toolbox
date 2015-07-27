@@ -12,6 +12,8 @@ Currently we have four official mixins, all hosted under the FlightJS org on Git
 - [with-state](https://github.com/flightjs/flight-with-state) for storing and reacting to change in a component's internal state.
 - [with-batch](https://github.com/flightjs/flight-with-batch) for efficiently batching function calls into animation frames, particularly useful for coalescing DOM updates.
 - [with-resources](https://github.com/flightjs/flight-with-resources) for sharing named resources between components.
+- [with-observable-state](https://github.com/flightjs/flight-with-observable-state) for exposing the state created by [with-state](https://github.com/flightjs/flight-with-state) as an observable sequence (using RxJS)
+- [with-observe](https://github.com/flightjs/flight-with-observe) helps manage subscribe/dispose of observables (using RxJS) within the context of component lifecycle.
 
 ### What's in development?
 
